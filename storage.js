@@ -1,0 +1,1 @@
+export const KEY="partnerStatistik.v3";export const load=()=>JSON.parse(localStorage.getItem(KEY)||"{\"version\":3,\"partners\":[],\"records\":[]}");export const save=d=>localStorage.setItem(KEY,JSON.stringify(d));
